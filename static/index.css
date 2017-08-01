@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0 none;
+}
+#pagelet-header{
+    height: 80px;
+    background-color: aqua;
+}
+#pagelet-main{
+    height: 180px;
+    background-color: pink;
+}
+#pagelet-footer{
+    height: 50px;
+    background-color: blueviolet;
+}
