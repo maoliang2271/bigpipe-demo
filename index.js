@@ -35,14 +35,16 @@ function handler (req, res) {
                     <div id="pagelet-footer">appshell-尾部</div>
         `);
         // 异步数据，拼装模板
-        utils.asyncData().then(() => {
+        let p1 = utils.asyncData(1500).then(() => {
             res.write(`<script>bigpipe.pageletArrive('pagelet-header', 'pipe-->头部组件')</script>`);
-            return utils.asyncData(1500);
-        }).then(() => {
+        })
+        let p2 = utils.asyncData().then(() => {
             res.write(`<script>bigpipe.pageletArrive('pagelet-main', 'pipe-->主体组件')</script>`);
             return utils.asyncData(2000);
         }).then(() => {
             res.write(`<script>bigpipe.pageletArrive('pagelet-footer', 'pipe-->尾部组件')</script>`);
+        });
+        Promise.all([p1, p2]).then(() => {
             res.end('</body></html>');
         });
     }
