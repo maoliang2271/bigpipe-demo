@@ -1,7 +1,7 @@
 const http = require('http');
 const opn = require('opn');
 const utils = require('./utils');
-const port = process.env.port || 2271;
+const port = process.env.PORT || 2271;
 
 function handler (req, res) {
     let url = req.url;
@@ -13,13 +13,14 @@ function handler (req, res) {
         })
         .catch((err) => {
             res.writeHead(500);
-            res.end('server internal error');
+            res.end('server has meet a error:$(JSON.stringify(err))');
         })
     } else {
         res.writeHead(200, {
             'Content-Type': utils.suffix2Type(url),
             'Transfer-Encoding': 'chunked'  // 告诉浏览器分块渲染
         });
+        // 返回app-shell
         res.write(`
             <!DOCTYPE html>
             <html>
@@ -33,7 +34,7 @@ function handler (req, res) {
                     <div id="pagelet-main">appshell-主体</div>
                     <div id="pagelet-footer">appshell-尾部</div>
         `);
-        // 异步数据
+        // 异步数据，拼装模板
         utils.asyncData().then(() => {
             res.write(`<script>bigpipe.pageletArrive('pagelet-header', 'pipe-->头部组件')</script>`);
             return utils.asyncData(1500);
