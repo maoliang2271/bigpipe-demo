@@ -36,15 +36,16 @@ function handler (req, res) {
         `);
         // 异步数据，拼装模板
         let p1 = utils.asyncData(1500).then(() => {
-            res.write(`<script>bigpipe.pageletArrive('pagelet-header', 'pipe-->头部组件')</script>`);
+            res.write(`<script>bigpipe.pageletArrive('pagelet-header', 'pipe-->头部组件<button type="button" onClick="alert(123)">按钮</button>')</script>`);
         })
         let p2 = utils.asyncData().then(() => {
             res.write(`<script>bigpipe.pageletArrive('pagelet-main', 'pipe-->主体组件')</script>`);
-            return utils.asyncData(2000);
+            return utils.asyncData(4000);
         }).then(() => {
             res.write(`<script>bigpipe.pageletArrive('pagelet-footer', 'pipe-->尾部组件')</script>`);
         });
         Promise.all([p1, p2]).then(() => {
+            // 结束响应
             res.end('</body></html>');
         });
     }
