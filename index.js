@@ -18,7 +18,8 @@ function handler (req, res) {
     } else {
         res.writeHead(200, {
             'Content-Type': utils.suffix2Type(url),
-            'Transfer-Encoding': 'chunked'  // 告诉浏览器分块渲染
+            // 告诉浏览器传输编码方式为分块渲染(http1.1默认)，content-length不需要，有也会被忽略
+            'Transfer-Encoding': 'chunked'  
         });
         // 返回layout
         res.write(`
@@ -27,16 +28,13 @@ function handler (req, res) {
                 <head>
                     <title>bigpipe-demo</title>
                     <link rel="stylesheet" type="text/css" href="/static/index.css">
-                    <script type="text/javascript" src="/static/bigpipe.js"></script>
                 </head>
                 <body>
                     <div id="pagelet-header">appshell-头部</div>
                     <div id="pagelet-main">appshell-主体</div>
                     <div id="pagelet-footer">appshell-尾部</div>
-                    <script>
-                        var timeS = Date.now();window.addEventListener('DOMContentLoaded', function() { console.log(new Date()-timeS); });
-                        document.addEventListener('click', function(e) { if(e.target.id === 'btn') alert('hi') });
-                    </script>
+                    <script type="text/javascript" src="/static/bigpipe.js"></script>
+                    <script type="text/javascript" src="/static/index.js"></script>
         `);
         // 模拟异步数据，拼装模板
         let p1 = utils.asyncData(1500).then(() => {
