@@ -33,10 +33,14 @@ function handler (req, res) {
                     <div id="pagelet-header">appshell-头部</div>
                     <div id="pagelet-main">appshell-主体</div>
                     <div id="pagelet-footer">appshell-尾部</div>
+                    <script>
+                        var timeS = Date.now();window.addEventListener('DOMContentLoaded', function() { console.log(new Date()-timeS); });
+                        document.addEventListener('click', function(e) { if(e.target.id === 'btn') alert('hi') });
+                    </script>
         `);
         // 模拟异步数据，拼装模板
         let p1 = utils.asyncData(1500).then(() => {
-            res.write(`<script>bigpipe.pageletArrive('pagelet-header', 'pipe-->头部组件<button type="button" onClick="alert(123)">按钮</button>')</script>`);
+            res.write(`<script>bigpipe.pageletArrive('pagelet-header', 'pipe-->头部组件<button type="button" id="btn">按钮</button>')</script>`);
         })
         let p2 = utils.asyncData().then(() => {
             res.write(`<script>bigpipe.pageletArrive('pagelet-main', 'pipe-->主体组件')</script>`);
