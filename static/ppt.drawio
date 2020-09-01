@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-01T06:48:39.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="jHXsX90Dq8NPKXI-bing" version="13.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-01T06:52:14.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="kfAg4eZ8W24NsYhHEK2o" version="13.6.5" type="github" pages="3">
   <diagram name="ABtest及上传" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2226" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -892,11 +892,17 @@
         <mxCell id="3gocQeL99KPlsw--0zpo-80" value="裁图组件" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
           <mxGeometry x="2260" y="457" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3gocQeL99KPlsw--0zpo-82" value="裁图组件" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+        <mxCell id="3gocQeL99KPlsw--0zpo-82" value="loading组件" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
           <mxGeometry x="2367" y="457" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3gocQeL99KPlsw--0zpo-83" value="PC音频播放组件" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
           <mxGeometry x="1600" y="507" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3gocQeL99KPlsw--0zpo-84" value="埋点上报组件" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="1770" y="507" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3gocQeL99KPlsw--0zpo-85" value="..." style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="1933" y="507" width="77" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
