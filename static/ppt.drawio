@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T08:31:40.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="-Z56ZgVXHJbtjJV5S1lJ" version="13.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-08T08:32:16.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="KIL-mVnjsSZ6K4228cyo" version="13.6.6" type="github" pages="3">
   <diagram name="ABtest及上传" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2678" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -752,7 +752,7 @@
           <mxGeometry x="1500" y="665" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3gocQeL99KPlsw--0zpo-34" value="应用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
-          <mxGeometry x="1500" y="820" width="60" height="30" as="geometry" />
+          <mxGeometry x="1500" y="875" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3gocQeL99KPlsw--0zpo-36" value="PC开平（SPA）" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fontColor=#FFFFFF;strokeColor=none;fillColor=#007FFF;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
           <mxGeometry x="1630" y="862" width="160" height="30" as="geometry" />
@@ -811,8 +811,8 @@
         <mxCell id="3gocQeL99KPlsw--0zpo-66" value="前端性能、资源接口测速、异常及自定义监控类型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fontColor=#ffffff;strokeColor=none;fillColor=#70AD47;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
           <mxGeometry x="2675" y="640" width="165" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3gocQeL99KPlsw--0zpo-69" value="业务组件库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
-          <mxGeometry x="1450" y="457" width="120" height="30" as="geometry" />
+        <mxCell id="3gocQeL99KPlsw--0zpo-69" value="组件库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
+          <mxGeometry x="1480" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZFcobhVYJAAw3wjDzm7Z-0" value="AB&lt;br&gt;实验" style="whiteSpace=wrap;html=1;fontSize=14;align=center;fontColor=#ffffff;strokeColor=none;fillColor=#2E75B6;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
           <mxGeometry x="2557" y="643" width="53" height="70" as="geometry" />
