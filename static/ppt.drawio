@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T08:32:16.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="KIL-mVnjsSZ6K4228cyo" version="13.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-08T10:22:24.389Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="llwAGQUzgJyuMpRKhxdf" version="13.6.6" type="github" pages="3">
   <diagram name="ABtest及上传" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2678" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -805,11 +805,11 @@
         <mxCell id="3gocQeL99KPlsw--0zpo-57" value="ssr/多端同构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#000000;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
           <mxGeometry x="2405" y="980" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3gocQeL99KPlsw--0zpo-60" value="业务监控" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;html=1;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
-          <mxGeometry x="2715" y="602" width="90" height="30" as="geometry" />
+        <mxCell id="3gocQeL99KPlsw--0zpo-60" value="自建前端监控" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;html=1;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
+          <mxGeometry x="2700" y="602" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3gocQeL99KPlsw--0zpo-66" value="前端性能、资源接口测速、异常及自定义监控类型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fontColor=#ffffff;strokeColor=none;fillColor=#70AD47;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
-          <mxGeometry x="2675" y="640" width="165" height="90" as="geometry" />
+          <mxGeometry x="2677.5" y="671" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3gocQeL99KPlsw--0zpo-69" value="组件库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
           <mxGeometry x="1480" y="460" width="80" height="30" as="geometry" />
@@ -944,10 +944,10 @@
           <mxGeometry x="1805" y="862" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WCcz4NZFV6CYmnKef9-B-48" value="用户行为及页面PV/UV等埋点数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fontColor=#ffffff;strokeColor=none;fillColor=#70AD47;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
-          <mxGeometry x="2675" y="758.25" width="165" height="90" as="geometry" />
+          <mxGeometry x="2677.5" y="832.75" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WCcz4NZFV6CYmnKef9-B-49" value="同后端服务的全链&lt;br&gt;路监控" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fontColor=#ffffff;strokeColor=none;fillColor=#70AD47;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
-          <mxGeometry x="2675" y="870" width="165" height="90" as="geometry" />
+          <mxGeometry x="2677.5" y="990" width="165" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
