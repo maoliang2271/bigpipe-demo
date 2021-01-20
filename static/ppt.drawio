@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T08:39:12.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="MCsmHvxSWSCgBYl4MJYZ" version="14.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-20T08:58:33.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="GUKFplebnk8y16QL1od-" version="14.1.3" type="github" pages="3">
   <diagram name="ABtest及上传" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2182" dy="560" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -332,7 +332,7 @@
         <mxCell id="EmXGoAv5Ff2JXkiIVDn--6" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="EmXGoAv5Ff2JXkiIVDn--5" vertex="1">
           <mxGeometry x="60" y="177" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EmXGoAv5Ff2JXkiIVDn--7" value="限定临时秘钥操作及资源权限范围，返回临时秘钥&lt;br&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" parent="EmXGoAv5Ff2JXkiIVDn--5" vertex="1">
+        <mxCell id="EmXGoAv5Ff2JXkiIVDn--7" value="限定临时秘钥操作及资源权限范围，服务端计算签名，返回签名信息&lt;br&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" parent="EmXGoAv5Ff2JXkiIVDn--5" vertex="1">
           <mxGeometry x="26" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EmXGoAv5Ff2JXkiIVDn--8" value="判重" style="rhombus;whiteSpace=wrap;html=1;" parent="EmXGoAv5Ff2JXkiIVDn--5" vertex="1">
