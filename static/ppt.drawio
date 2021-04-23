@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T02:44:26.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="S_UAJ45P7zj7xPG9-kVX" version="14.6.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-23T02:46:59.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="yEwFEcd45Ui1foz0bJve" version="14.6.3" type="github" pages="4">
   <diagram name="ABtest及上传" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2526" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -869,8 +869,8 @@
         <mxCell id="WCcz4NZFV6CYmnKef9-B-1" value="@tencent/musician-common" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
           <mxGeometry x="1880" y="420" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WCcz4NZFV6CYmnKef9-B-3" value="@tencent/tme-client-api" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
-          <mxGeometry x="1880" y="460" width="210" height="30" as="geometry" />
+        <mxCell id="WCcz4NZFV6CYmnKef9-B-3" value="@tencent/musician-components" style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
+          <mxGeometry x="1863.75" y="460" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WCcz4NZFV6CYmnKef9-B-5" value="..." style="whiteSpace=wrap;html=1;dashed=1;fontSize=16;align=center;fillColor=#bac8d3;strokeColor=none;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
           <mxGeometry x="1880" y="500" width="210" height="30" as="geometry" />
