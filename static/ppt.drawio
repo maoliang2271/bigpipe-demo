@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T04:14:55.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="AICoBpneyptZGtzB4hFK" version="16.6.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-02-27T10:01:35.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="t7WWHO7vSIuZe-1maaeV" version="16.6.4" type="github" pages="11">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1298" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2528,7 +2528,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8PqPdGdzTT-8kaodILtU" name="10级">
-    <mxGraphModel dx="1854" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1082" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="a9UPuGBBNpOI_u220KW0-0" />
         <mxCell id="a9UPuGBBNpOI_u220KW0-1" parent="a9UPuGBBNpOI_u220KW0-0" />
@@ -2702,6 +2702,12 @@
         </mxCell>
         <mxCell id="A6WiXD1_1u1LdPNbEDKf-44" value="构建层" style="whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;" parent="a9UPuGBBNpOI_u220KW0-1" vertex="1">
           <mxGeometry x="157" y="1024" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9z2-p-cnyRSxjAuw4k-30" value="白屏监控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="a9UPuGBBNpOI_u220KW0-1">
+          <mxGeometry x="132.5" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9z2-p-cnyRSxjAuw4k-31" value="getConfig&lt;br&gt;(config.js/package.json)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="a9UPuGBBNpOI_u220KW0-1">
+          <mxGeometry x="136" y="1460" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
