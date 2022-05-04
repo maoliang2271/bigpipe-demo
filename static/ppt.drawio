@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T13:34:02.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-wtTsqPytN3XMMo9WGV4" version="17.4.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-05-04T13:34:54.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="jKAK9IhN5XITkEZHWbhE" version="17.4.6" type="github" pages="11">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1298" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1416,9 +1416,6 @@
             <mxPoint y="1310" as="sourcePoint" />
             <mxPoint x="50" y="1260" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4TxS1aqxtt7v-BD2X8Dk-1" value="https://km-pro-1258638997.cos.ap-guangzhou.myqcloud.com/files/photos/pictures/162/728cea79287ba9cf2c76dd2130735_w1976_h1690.png?q-sign-algorithm=sha1&amp;q-ak=AKIDLVP3QWLuCDxYtCEzUjhOpyqQjlW0C8nB&amp;q-sign-time=1651670913%3B1651672713&amp;q-key-time=1651670913%3B1651672713&amp;q-header-list=host&amp;q-url-param-list=&amp;q-signature=781b40ace5b6c86a4648beea8bb8f71fedacc136&amp;imageMogr2/strip/ignore-error/1" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1Vb2c0ROir6dtA2HSMba-1">
-          <mxGeometry x="520" y="1200" width="550" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
