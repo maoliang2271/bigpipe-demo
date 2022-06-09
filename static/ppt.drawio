@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T13:47:56.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="TssU79iUBShKncsdgyx9" version="18.1.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-09T12:44:27.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="T0U9QXxrpszFczYKx3u4" version="18.1.3" type="github" pages="12">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
-    <mxGraphModel dx="2852" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1EoIKt2a4UzissXe4NPp-0" />
         <mxCell id="1EoIKt2a4UzissXe4NPp-1" parent="1EoIKt2a4UzissXe4NPp-0" />
@@ -87,13 +87,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-0" value="访问H5页面（Q音、酷狗、酷我）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
-          <mxGeometry x="290" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="134" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-1" value="拿到客户端相关用户参数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
-          <mxGeometry x="463" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="307" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-2" value="后端接口置换音乐人登录态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
-          <mxGeometry x="636" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-3" value="判断账号状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
           <mxGeometry x="810" y="850" width="120" height="60" as="geometry" />
@@ -103,19 +103,19 @@
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1EoIKt2a4UzissXe4NPp-1" source="UuDdjMLoppBnzwXUHUBx-0" target="UuDdjMLoppBnzwXUHUBx-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="920" as="sourcePoint" />
-            <mxPoint x="850" y="1030" as="targetPoint" />
+            <mxPoint x="294" y="920" as="sourcePoint" />
+            <mxPoint x="694" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1EoIKt2a4UzissXe4NPp-1" source="UuDdjMLoppBnzwXUHUBx-1" target="UuDdjMLoppBnzwXUHUBx-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="890" as="sourcePoint" />
-            <mxPoint x="473" y="890" as="targetPoint" />
+            <mxPoint x="264" y="890" as="sourcePoint" />
+            <mxPoint x="317" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UuDdjMLoppBnzwXUHUBx-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1EoIKt2a4UzissXe4NPp-1" source="UuDdjMLoppBnzwXUHUBx-2" target="UuDdjMLoppBnzwXUHUBx-3">
+        <mxCell id="UuDdjMLoppBnzwXUHUBx-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1EoIKt2a4UzissXe4NPp-1" source="UuDdjMLoppBnzwXUHUBx-2" target="UuDdjMLoppBnzwXUHUBx-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="593" y="890" as="sourcePoint" />
+            <mxPoint x="770" y="810" as="sourcePoint" />
             <mxPoint x="646" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -134,7 +134,7 @@
             <mxPoint x="999" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UuDdjMLoppBnzwXUHUBx-14" value="是否强制&lt;br&gt;登陆" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
+        <mxCell id="UuDdjMLoppBnzwXUHUBx-14" value="forceLogin" style="rhombus;whiteSpace=wrap;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
           <mxGeometry x="989" y="960" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-15" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
@@ -159,7 +159,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-21" value="静默登陆失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
-          <mxGeometry x="972" y="1089" width="120" height="60" as="geometry" />
+          <mxGeometry x="970" y="1089" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1EoIKt2a4UzissXe4NPp-1" target="UuDdjMLoppBnzwXUHUBx-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -172,6 +172,31 @@
         </mxCell>
         <mxCell id="UuDdjMLoppBnzwXUHUBx-25" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
           <mxGeometry x="1035" y="1049" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UuDdjMLoppBnzwXUHUBx-26" value="filterEmptyAccount&#xa;" style="rhombus;fontColor=default;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
+          <mxGeometry x="672" y="841" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UuDdjMLoppBnzwXUHUBx-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1EoIKt2a4UzissXe4NPp-1" source="UuDdjMLoppBnzwXUHUBx-26" target="UuDdjMLoppBnzwXUHUBx-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="890" as="sourcePoint" />
+            <mxPoint x="682.353982300885" y="890.646017699115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuDdjMLoppBnzwXUHUBx-29" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=default;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
+          <mxGeometry x="770" y="860" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UuDdjMLoppBnzwXUHUBx-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1EoIKt2a4UzissXe4NPp-1" source="UuDdjMLoppBnzwXUHUBx-26" target="UuDdjMLoppBnzwXUHUBx-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="890" as="sourcePoint" />
+            <mxPoint x="1160" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="712" y="800" />
+              <mxPoint x="1188" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuDdjMLoppBnzwXUHUBx-31" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=default;" vertex="1" parent="1EoIKt2a4UzissXe4NPp-1">
+          <mxGeometry x="920" y="780" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
