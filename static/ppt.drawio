@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T03:15:12.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="i3a5ZwRhgQHl2ZhhgaVb" version="20.0.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-23T16:16:09.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7nIh99VR5qBdS2LKFodA" version="20.0.1" type="github" pages="11">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1298" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -992,7 +992,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eu4-CGveG9sqH63qxDSs" name="前端架构">
-    <mxGraphModel dx="2057" dy="1640" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="171" dy="578" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cjWLdbPpNJcoFLmzaIyL-0" />
         <mxCell id="cjWLdbPpNJcoFLmzaIyL-1" parent="cjWLdbPpNJcoFLmzaIyL-0" />
@@ -1442,6 +1442,66 @@
         </mxCell>
         <mxCell id="S9V5a6-U3At-OuvL9Ati-50" value="伦琴" style="whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;" parent="cjWLdbPpNJcoFLmzaIyL-1" vertex="1">
           <mxGeometry x="1705.5" y="1544" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-0" value="web-&amp;gt; js&lt;br&gt;参考灯塔sdk" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="1119.5" y="2052" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-1" value="后端数据接口" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="1392.5" y="2052" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cjWLdbPpNJcoFLmzaIyL-1" source="0ehEHp_OquaPQ1G4GsTe-0" target="0ehEHp_OquaPQ1G4GsTe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1352.5" y="2198" as="sourcePoint" />
+            <mxPoint x="1402.5" y="2148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-3" value="数据上报" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="1295.75" y="2052" width="72" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-4" value="kafka" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="1587.5" y="2052" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-5" value="TDW" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="1782.5" y="2052" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cjWLdbPpNJcoFLmzaIyL-1" source="0ehEHp_OquaPQ1G4GsTe-1" target="0ehEHp_OquaPQ1G4GsTe-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280.4999999999998" y="2094" as="sourcePoint" />
+            <mxPoint x="1404.5" y="2094" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="cjWLdbPpNJcoFLmzaIyL-1" source="0ehEHp_OquaPQ1G4GsTe-4" target="0ehEHp_OquaPQ1G4GsTe-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1544.5" y="2094" as="sourcePoint" />
+            <mxPoint x="1599.5" y="2094" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-8" value="superset" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="1998.25" y="1944" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-9" value="灯塔" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="2002" y="2052" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-10" value="..." style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cjWLdbPpNJcoFLmzaIyL-1">
+          <mxGeometry x="2001" y="2166" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cjWLdbPpNJcoFLmzaIyL-1" source="0ehEHp_OquaPQ1G4GsTe-5" target="0ehEHp_OquaPQ1G4GsTe-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1739.5" y="2094" as="sourcePoint" />
+            <mxPoint x="1794.5" y="2094" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cjWLdbPpNJcoFLmzaIyL-1" source="0ehEHp_OquaPQ1G4GsTe-5" target="0ehEHp_OquaPQ1G4GsTe-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1934.5" y="2094" as="sourcePoint" />
+            <mxPoint x="2010.25" y="1986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ehEHp_OquaPQ1G4GsTe-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cjWLdbPpNJcoFLmzaIyL-1" source="0ehEHp_OquaPQ1G4GsTe-5" target="0ehEHp_OquaPQ1G4GsTe-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1934.5" y="2094" as="sourcePoint" />
+            <mxPoint x="2014" y="2094" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2344,7 +2404,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fdnaDLAwYu-Pvt0NAjj9" name="自动化测试">
-    <mxGraphModel dx="1442" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="pGMa8N4TlbNYxnCD8atv-0" />
         <mxCell id="pGMa8N4TlbNYxnCD8atv-1" parent="pGMa8N4TlbNYxnCD8atv-0" />
@@ -2391,7 +2451,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iDDGVEkf35JQu0rYLqmh" name="屏幕录制">
-    <mxGraphModel dx="1997" dy="1535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="y6d4wnvQojyHnYnIMEug-0" />
         <mxCell id="y6d4wnvQojyHnYnIMEug-1" parent="y6d4wnvQojyHnYnIMEug-0" />
@@ -2839,7 +2899,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8PqPdGdzTT-8kaodILtU" name="10级">
-    <mxGraphModel dx="2360" dy="1342" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1854" dy="1073" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="a9UPuGBBNpOI_u220KW0-0" />
         <mxCell id="a9UPuGBBNpOI_u220KW0-1" parent="a9UPuGBBNpOI_u220KW0-0" />
@@ -3553,14 +3613,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="HtqOWJ_V06DX5wL1mQ6S" name="版本发布跟进">
-    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
