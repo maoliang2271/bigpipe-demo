@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T16:23:51.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qiB-29jBEbNkG5PwqX8V" version="20.0.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-26T16:00:35.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="r8UDV4CrRwYfG6RjA8-X" version="20.0.1" type="github" pages="11">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1298" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1745,11 +1745,56 @@
             <mxPoint x="50" y="1260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-0" value="可视化图片模板搭建系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1Vb2c0ROir6dtA2HSMba-1">
+          <mxGeometry x="-413" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-1" value="产品UI" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1Vb2c0ROir6dtA2HSMba-1">
+          <mxGeometry x="-370" y="1920" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-4" value="图片模板可视化编辑系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1Vb2c0ROir6dtA2HSMba-1">
+          <mxGeometry x="-160" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1Vb2c0ROir6dtA2HSMba-1" source="_4ot6GqRTYNTh-aKXJ-x-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1890" as="sourcePoint" />
+            <mxPoint x="-160" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-6" value="图片模板" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1Vb2c0ROir6dtA2HSMba-1">
+          <mxGeometry x="-265" y="1815" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-7" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1Vb2c0ROir6dtA2HSMba-1">
+          <mxGeometry x="-110" y="1920" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1Vb2c0ROir6dtA2HSMba-1" target="_4ot6GqRTYNTh-aKXJ-x-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-353" y="1910" as="sourcePoint" />
+            <mxPoint x="90" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1Vb2c0ROir6dtA2HSMba-1" target="_4ot6GqRTYNTh-aKXJ-x-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="1910" as="sourcePoint" />
+            <mxPoint x="-343" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-12" value="个性图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1Vb2c0ROir6dtA2HSMba-1">
+          <mxGeometry x="70" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1Vb2c0ROir6dtA2HSMba-1" source="_4ot6GqRTYNTh-aKXJ-x-4" target="_4ot6GqRTYNTh-aKXJ-x-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-283" y="1850" as="sourcePoint" />
+            <mxPoint x="-150" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_4ot6GqRTYNTh-aKXJ-x-14" value="服务端生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1Vb2c0ROir6dtA2HSMba-1">
+          <mxGeometry x="-28" y="1820" width="80" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="5AEu-6fLKHQOflv0hWA0" name="图片编辑器2">
-    <mxGraphModel dx="2596" dy="2671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1731" dy="2170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="oMEuj8gR2VaM8U_I1Zpd-0" />
         <mxCell id="oMEuj8gR2VaM8U_I1Zpd-1" parent="oMEuj8gR2VaM8U_I1Zpd-0" />
