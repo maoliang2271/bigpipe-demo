@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T03:59:25.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BzX5ZG8kRS-mYxKnpWoB" version="20.0.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-07-06T08:36:30.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lGDmO8PGAMYbhYF8Ifdf" version="20.0.3" type="github" pages="12">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="2884" dy="1669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2980,7 +2980,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8PqPdGdzTT-8kaodILtU" name="10级">
-    <mxGraphModel dx="1854" dy="1073" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="a9UPuGBBNpOI_u220KW0-0" />
         <mxCell id="a9UPuGBBNpOI_u220KW0-1" parent="a9UPuGBBNpOI_u220KW0-0" />
@@ -3692,6 +3692,98 @@
             <Array as="points">
               <mxPoint x="1560" y="2470" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SlaaZEONnzjtq9mbkndY" name="图片生成服务">
+    <mxGraphModel dx="1236" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-1" value="git仓库&lt;br&gt;(Dockerfile)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-2" value="coding-ci流水线&lt;br&gt;（不同环境不同流水线）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-3" value="MTKE&lt;br&gt;(基于腾讯云TKE)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="607" y="212" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-5" value="镜像构建" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-6" value="镜像推送" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-7" value="镜像部署&lt;br&gt;（支持小流量）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="303" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="241.62" as="sourcePoint" />
+            <mxPoint x="230" y="241.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="239.6199999999999" as="sourcePoint" />
+            <mxPoint x="410" y="239.6199999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="wTeaauxNE0pBTpZO4-Gp-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="190" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wTeaauxNE0pBTpZO4-Gp-6" target="wTeaauxNE0pBTpZO4-Gp-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="200" as="sourcePoint" />
+            <mxPoint x="490" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="244.6199999999999" as="sourcePoint" />
+            <mxPoint x="593" y="244.6199999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-15" value="部署流程：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-16" value="流量接入：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-17" value="tnginx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-18" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-19" value="CLB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-20" value="TKE-Pod" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="wTeaauxNE0pBTpZO4-Gp-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="590" as="sourcePoint" />
+            <mxPoint x="370" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wTeaauxNE0pBTpZO4-Gp-17" target="wTeaauxNE0pBTpZO4-Gp-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="600" as="sourcePoint" />
+            <mxPoint x="180" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wTeaauxNE0pBTpZO4-Gp-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wTeaauxNE0pBTpZO4-Gp-19" target="wTeaauxNE0pBTpZO4-Gp-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="600" as="sourcePoint" />
+            <mxPoint x="362" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
