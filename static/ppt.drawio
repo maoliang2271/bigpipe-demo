@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T05:01:58.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="NUf1zPm5YYR5smNusd9n" version="20.3.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-09-15T05:06:36.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dMcKh_D6o1jSpV4BpPOF" version="20.3.0" type="github" pages="13">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1298" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3933,6 +3933,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="237" as="sourcePoint" />
             <mxPoint x="70" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N71zTKrlvc1XyIDivDLi-34" value="灯塔" style="whiteSpace=wrap;html=1;fontSize=14;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="682" y="39" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N71zTKrlvc1XyIDivDLi-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="N71zTKrlvc1XyIDivDLi-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="224" as="sourcePoint" />
+            <mxPoint x="603" y="291" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
