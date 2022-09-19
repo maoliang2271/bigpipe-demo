@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T06:19:17.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qZhmpR9Q6hAyGYFNTzD3" version="20.3.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-09-19T06:21:16.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6ujI6UzcDyASeTX_67Ql" version="20.3.0" type="github" pages="13">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1298" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3974,6 +3974,16 @@
             <mxPoint x="893" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <UserObject label="https://iwiki.woa.com/download/attachments/2039087690/image2022-9-18_23-2-31.png?version=1&amp;modificationDate=1663513351677&amp;api=v2" link="https://iwiki.woa.com/download/attachments/2039087690/image2022-9-18_23-2-31.png?version=1&amp;modificationDate=1663513351677&amp;api=v2" id="-WluUJ66XS6gpH83UF7K-12">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+            <mxGeometry x="1039" y="60" width="560" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://iwiki.woa.com/download/attachments/2039087690/image2022-9-18_23-38-25.png?version=1&amp;modificationDate=1663515506247&amp;api=v2" link="https://iwiki.woa.com/download/attachments/2039087690/image2022-9-18_23-38-25.png?version=1&amp;modificationDate=1663515506247&amp;api=v2" id="-WluUJ66XS6gpH83UF7K-13">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+            <mxGeometry x="1040" y="-60" width="560" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
