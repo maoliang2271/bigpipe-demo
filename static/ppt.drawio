@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T06:14:37.371Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dLJMecQxUgwFA41dTlt7" version="20.3.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-09-19T06:19:17.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qZhmpR9Q6hAyGYFNTzD3" version="20.3.0" type="github" pages="13">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1298" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3811,7 +3811,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="daSaK5GxA0vzo_CgiJ2s" name="数据分析">
-    <mxGraphModel dx="2125" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3935,14 +3935,8 @@
             <mxPoint x="70" y="237" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N71zTKrlvc1XyIDivDLi-34" value="灯塔" style="whiteSpace=wrap;html=1;fontSize=14;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="682" y="39" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="N71zTKrlvc1XyIDivDLi-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" target="N71zTKrlvc1XyIDivDLi-34" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="224" as="sourcePoint" />
-            <mxPoint x="603" y="291" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="N71zTKrlvc1XyIDivDLi-34" value="灯塔" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="680" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-WluUJ66XS6gpH83UF7K-1" value="埋点全景：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-50" y="39" width="100" height="30" as="geometry" />
@@ -3955,6 +3949,30 @@
         </mxCell>
         <mxCell id="-WluUJ66XS6gpH83UF7K-5" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;可视化埋点SDK：&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-50" y="990" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-WluUJ66XS6gpH83UF7K-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="N71zTKrlvc1XyIDivDLi-4" target="N71zTKrlvc1XyIDivDLi-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="270" as="sourcePoint" />
+            <mxPoint x="640" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WluUJ66XS6gpH83UF7K-8" value="page_pv_uv" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="883" y="-60" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-WluUJ66XS6gpH83UF7K-9" value="event" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="883" y="60" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-WluUJ66XS6gpH83UF7K-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N71zTKrlvc1XyIDivDLi-34" target="-WluUJ66XS6gpH83UF7K-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="220" as="sourcePoint" />
+            <mxPoint x="860" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WluUJ66XS6gpH83UF7K-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-WluUJ66XS6gpH83UF7K-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="30" as="sourcePoint" />
+            <mxPoint x="893" y="-20" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
