@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T13:39:58.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hHtrqgCmfm-V_RYTit1j" version="20.8.20" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-02-21T13:40:15.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0AJZPeu6W8BoicnH15vx" version="20.8.20" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1451" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4319,7 +4319,7 @@
         <mxCell id="w49-m3Mqi-JcKz-EGPnt-4" value="限流" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="270" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w49-m3Mqi-JcKz-EGPnt-5" value="SSR降级" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-5" value="渲染降级" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="430" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w49-m3Mqi-JcKz-EGPnt-6" value="流量分发" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -4351,6 +4351,9 @@
         </mxCell>
         <mxCell id="w49-m3Mqi-JcKz-EGPnt-15" value="API" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="550" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-16" value="..." style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="430" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
