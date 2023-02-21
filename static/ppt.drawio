@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T13:08:26.006Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="O6OduAnj0QLXi2eyX1cD" version="20.8.20" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-02-21T13:39:58.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hHtrqgCmfm-V_RYTit1j" version="20.8.20" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1451" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4330,6 +4330,27 @@
         </mxCell>
         <mxCell id="w49-m3Mqi-JcKz-EGPnt-8" value="配置下发" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="595" y="260" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="568" width="650" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;业务方&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-11" value="client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="650" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-12" value="COS" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-13" value="SSR" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-14" value="BFF" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-15" value="API" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
