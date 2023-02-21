@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T13:04:26.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2HcXrmPPNdigU6QtFgdF" version="20.8.20" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-02-21T13:08:08.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DN4ut-tDH5qMUM6R4XBf" version="20.8.20" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1451" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4308,10 +4308,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="w49-m3Mqi-JcKz-EGPnt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="240" width="550" height="260" as="geometry" />
+          <mxGeometry x="70" y="260" width="510" height="240" as="geometry" />
         </mxCell>
         <mxCell id="w49-m3Mqi-JcKz-EGPnt-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;node gateway&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="250" width="120" height="30" as="geometry" />
+          <mxGeometry x="70" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-3" value="ABtest" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-4" value="限流" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-5" value="SSR降级" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-6" value="流量分发" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-7" value="日志采集" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w49-m3Mqi-JcKz-EGPnt-8" value="配置下发" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="595" y="260" width="120" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
