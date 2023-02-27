@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T07:35:39.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Mw0Q8nxmmq5ELaPXo9Qv" version="20.8.21" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-02-27T07:36:54.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BzaKwSDH7ld1JCBRGjV1" version="20.8.21" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1306" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4358,19 +4358,19 @@
         <mxCell id="w49-m3Mqi-JcKz-EGPnt-17" value="Static" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="108" y="600" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cz-MZwBmo-SYEpvePpnk-1" value="分析结果列表" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Cz-MZwBmo-SYEpvePpnk-1" value="分析结果组件" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="70" y="850" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cz-MZwBmo-SYEpvePpnk-2" value="个人资料" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Cz-MZwBmo-SYEpvePpnk-2" value="个人资料组件" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="70" y="940" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cz-MZwBmo-SYEpvePpnk-3" value="专辑信息" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Cz-MZwBmo-SYEpvePpnk-3" value="专辑信息组件" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="70" y="1025" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cz-MZwBmo-SYEpvePpnk-4" value="歌曲信息" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Cz-MZwBmo-SYEpvePpnk-4" value="歌曲信息组件" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="70" y="1110" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cz-MZwBmo-SYEpvePpnk-5" value="相似歌曲" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Cz-MZwBmo-SYEpvePpnk-5" value="相似歌曲组件" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="70" y="1200" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
