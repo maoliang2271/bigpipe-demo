@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T09:37:48.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="PTpQgDUs0Ha4d09sBL2a" version="21.3.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-05-29T06:12:16.060Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Zc01yHXk-kyAtmyHt3O2" version="21.3.3" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1802" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4466,25 +4466,25 @@
         <mxCell id="nudulhs7AMvXXDNcAtA6-1" value="微信登录获取用户openid" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nudulhs7AMvXXDNcAtA6-2" value="生成创建小程序二维码" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nudulhs7AMvXXDNcAtA6-2" value="生成创建小程序用户授权页面" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nudulhs7AMvXXDNcAtA6-3" value="上传代码并生成体验版" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nudulhs7AMvXXDNcAtA6-4" value="https://developers.weixin.qq.com/doc/oplatform/Third-party_Platforms/2.0/api/beta_Mini_Programs/fastregister.html" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="350" y="180" width="630" height="30" as="geometry" />
         </mxCell>
         <UserObject label="https://developers.weixin.qq.com/doc/oplatform/openApi/OpenApiDoc/miniprogram-management/code-management/commit.html" link="https://developers.weixin.qq.com/doc/oplatform/openApi/OpenApiDoc/miniprogram-management/code-management/commit.html" id="nudulhs7AMvXXDNcAtA6-5">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="360" y="390" width="780" height="30" as="geometry" />
+            <mxGeometry x="360" y="430" width="780" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="nudulhs7AMvXXDNcAtA6-6" value="获取体验版二维码" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nudulhs7AMvXXDNcAtA6-7" value="https://developers.weixin.qq.com/doc/oplatform/openApi/OpenApiDoc/miniprogram-management/code-management/getTrialQRCode.html" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="505" width="760" height="30" as="geometry" />
+          <mxGeometry x="350" y="545" width="760" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nudulhs7AMvXXDNcAtA6-8" value="access_token、name、openid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="350" y="210" width="190" height="30" as="geometry" />
@@ -4493,10 +4493,13 @@
           <mxGeometry x="200" y="10" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nudulhs7AMvXXDNcAtA6-10" value="access_token、path" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="360" y="535" width="130" height="30" as="geometry" />
+          <mxGeometry x="360" y="575" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nudulhs7AMvXXDNcAtA6-11" value="template_id、ext_json" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="360" y="420" width="140" height="30" as="geometry" />
+          <mxGeometry x="360" y="460" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nudulhs7AMvXXDNcAtA6-12" value="代码动态生成提交小程序模板库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
