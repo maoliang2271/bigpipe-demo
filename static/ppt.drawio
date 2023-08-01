@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T06:28:50.457Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="IRpCVjRwhHQSLzB5LIi1" version="21.6.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-01T06:28:59.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YBbM374ejy8AZC_CksrS" version="21.6.5" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1562" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4511,7 +4511,7 @@
           <mxGeometry x="780" y="500" width="500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xrJ-uQIYv2YjjaSb0vju-1" value="&lt;span style=&quot;color: rgb(73, 73, 73); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, Verdana, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;单 POD 多 Node 进程，就是我们 1 个 POD 会带有 8 核，每个核心跑一个进程。这个在 Kubernetes 里面实际上是一个反模式，因为 Kubernetes 要求 POD 要尽量得小，然后里面就只跑 Node 一个进程。但在工程实践的时候，我们发现这样跑虽然没有问题，但是它扩容速度非常慢，因为每次实例扩出来，都是批量的。比如说我们内部的容器系统，只能说一次扩 100 个实例，也就是说一批也就扩 100 核，并且这 100 核都要分配内部的虚拟 IP，可能会导致内部的 IP 池被耗尽了。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="660" width="1240" height="90" as="geometry" />
+          <mxGeometry x="800" y="650" width="1240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
