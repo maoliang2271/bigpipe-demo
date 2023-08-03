@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T13:50:41.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="262IRRCHX01YgYSGqO9L" version="21.6.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-03T03:24:36.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="AY0CdP54uGo3pxNtGOsE" version="21.6.6" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1562" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4563,21 +4563,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3t0fu6qPASrHr3wH63te" name="D2C">
-    <mxGraphModel dx="976" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1250" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LeLgcFm7CVrkvr_zskUC-2" value="插件层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="LeLgcFm7CVrkvr_zskUC-2" value="插件层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="550" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeLgcFm7CVrkvr_zskUC-3" value="平台层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="LeLgcFm7CVrkvr_zskUC-3" value="平台层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="190" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeLgcFm7CVrkvr_zskUC-4" value="获取原始节点信息" style="whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="LeLgcFm7CVrkvr_zskUC-4" value="获取原始节点信息" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="530" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeLgcFm7CVrkvr_zskUC-5" value="过滤隐藏节点" style="whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="1">
+        <mxCell id="LeLgcFm7CVrkvr_zskUC-5" value="过滤隐藏节点" style="whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="530" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-2" value="重制坐标和id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
