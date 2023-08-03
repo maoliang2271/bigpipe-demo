@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T03:24:36.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="AY0CdP54uGo3pxNtGOsE" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-03T12:07:09.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="oC2H172ckek2uwJK9xii" version="21.6.6" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1562" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4563,7 +4563,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3t0fu6qPASrHr3wH63te" name="D2C">
-    <mxGraphModel dx="1250" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1077" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4574,13 +4574,40 @@
           <mxGeometry x="190" y="130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LeLgcFm7CVrkvr_zskUC-4" value="获取原始节点信息" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="530" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="534" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeLgcFm7CVrkvr_zskUC-5" value="过滤隐藏节点" style="whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="530" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="LeLgcFm7CVrkvr_zskUC-5" value="过滤隐藏节点&lt;br&gt;（透明度/不可见/没边界）" style="whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="534" y="298" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jCrq0C0HpQXBZR3DB0Nh-2" value="重制坐标和id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="174" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-4" value="获取登录信息&amp;amp;点击节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jCrq0C0HpQXBZR3DB0Nh-4" target="LeLgcFm7CVrkvr_zskUC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LeLgcFm7CVrkvr_zskUC-4" target="LeLgcFm7CVrkvr_zskUC-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-8" value="转成D2C节点" style="whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="534" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LeLgcFm7CVrkvr_zskUC-5" target="jCrq0C0HpQXBZR3DB0Nh-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-14" value="&lt;h1&gt;图片节点&lt;/h1&gt;&lt;p&gt;type：RECTANGLE、VECTOR（矩形、矢量）&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="827" y="370" width="453" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
