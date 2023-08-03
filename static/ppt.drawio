@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T12:21:53.307Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="rQTEUUFpccWwbhTMLwSw" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-03T12:30:00.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="aX_NKrPXxeZJQAhR0H0c" version="21.6.6" type="github" pages="15">
   <diagram id="PDSp9yfDqVqBQDVZrBZl" name="微信登陆流程">
     <mxGraphModel dx="1562" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4610,7 +4610,19 @@
           <mxGeometry x="827" y="370" width="453" height="130" as="geometry" />
         </mxCell>
         <mxCell id="jCrq0C0HpQXBZR3DB0Nh-15" value="&lt;h1&gt;ICON节点&lt;/h1&gt;&lt;p&gt;type：BOOLEAN_OPERATION、ELLIPSE、POLYGON&lt;/p&gt;&lt;p&gt;VECTOR元素&amp;amp;大小&amp;lt;60*60&lt;/p&gt;&lt;p&gt;所有子节点符合上述条件&lt;/p&gt;&lt;p&gt;meta：src、isRemoveEffect、mixMode、shadow、radius、blend&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="827" y="585" width="453" height="155" as="geometry" />
+          <mxGeometry x="827" y="520" width="453" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-16" value="&lt;h1&gt;文字节点&lt;/h1&gt;&lt;p&gt;type：TEXT&lt;/p&gt;&lt;p&gt;meta：commonCss、characters、blend、mixMode、shadow、transform&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="827" y="700" width="453" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="669.66" as="sourcePoint" />
+            <mxPoint x="770" y="669.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCrq0C0HpQXBZR3DB0Nh-18" value="&lt;h1&gt;图形节点&lt;/h1&gt;&lt;p&gt;type：BOOLEAN_OPERATION、ELLIPSE、POLYGON、RECTANGLE、VECTOR &amp;amp; 填充不是图片或不存在填充物&lt;/p&gt;&lt;p&gt;meta：commonCss、characters、blend、mixMode、shadow、transform&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="827" y="825" width="453" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
